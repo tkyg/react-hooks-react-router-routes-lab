@@ -8,7 +8,7 @@ const linkStyles = {
 
 function NavBar() {
   return (
-  <div>
+  <div className="navbar">
     <NavLink
       to="/"
       exact style={linkStyles}
